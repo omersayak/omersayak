@@ -2,7 +2,7 @@
 
 
 # 💫 About Me:
-I'm Backend Developer And Jr. CyberSecurity Spealits
+I'm Backend Developer And Jr. CyberSecurity Analyst
 
 
 ## 🌐 Socials:
