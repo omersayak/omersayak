@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Exo+2&size=24&duration=4000&pause=1000&color=45F700&center=true&vCenter=true&width=531&lines=Cyber+Security+%26%26+Software+Engineer;Always+learning+new+things)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Exo+2&size=24&duration=4000&pause=1000&color=45F700&center=true&vCenter=true&width=531&lines=Software+%26%26+Cyber+Security+Specialist;Always+learning+new+things)](https://git.io/typing-svg)
 
 
 # 💫 About Me:
