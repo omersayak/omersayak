@@ -2,7 +2,7 @@
 
 
 # 💫 About Me:
-I'm Cyber Security And Software Engineer
+I'm System and Cybersecurity Specialist 
 
 
 ## 🌐 Socials:
