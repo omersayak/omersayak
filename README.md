@@ -4,20 +4,24 @@
 
 <br/><br/>
 
-<p>
+<p align="center">
 <a href="https://linkedin.com/in/omersayak">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white"/>
+  <img width="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"/>
 </a>
+&nbsp;&nbsp;
 <a href="https://instagram.com/omersayakk">
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white"/>
+  <img width="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/instagram/instagram-original.svg"/>
 </a>
+&nbsp;&nbsp;
 <a href="https://medium.com/@omersayak">
-  <img src="https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white"/>
+  <img width="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/medium/medium-original.svg"/>
 </a>
+&nbsp;&nbsp;
 <a href="https://twitter.com/omersayakk">
-  <img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white"/>
+  <img width="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg"/>
 </a>
 </p>
+
 
 
 </div>
