@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Exo+2&size=28&duration=4000&pause=1000&color=45F700&center=true&vCenter=true&width=1000&lines=Systems+%26+Cybersecurity+R%26D+Professional;Secure+Systems+%7C+Backend+Engineering+%7C+DevOps;Always+learning+new+things" />
+<img src="https://readme-typing-svg.demolab.com?font=Exo+2&size=30&duration=4000&pause=1000&color=45F700&center=true&vCenter=true&width=1100&lines=Systems+%26+Cybersecurity+R%26D+Professional;Designing+Secure+and+Scalable+Systems;Backend+%7C+Infrastructure+%7C+Security" />
 
 <br/><br/>
 
@@ -8,11 +8,11 @@
 <a href="https://linkedin.com/in/omersayak">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white"/>
 </a>
-<a href="https://twitter.com/omersayakk">
-  <img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white"/>
-</a>
 <a href="https://medium.com/@omersayak">
   <img src="https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white"/>
+</a>
+<a href="https://twitter.com/omersayakk">
+  <img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white"/>
 </a>
 </p>
 
@@ -20,36 +20,40 @@
 
 ---
 
-## 🧭 Profile Summary
+## 👋 Who Am I?
 
 <p align="center">
-Systems & Cybersecurity R&D Professional focused on designing, building, and securing modern software and infrastructure systems.<br/>
-Strong background in <b>secure system design, backend engineering, DevOps, and applied cybersecurity research</b>.
+I am a <b>Systems & Cybersecurity R&D Professional</b> focused on designing, building, and securing modern software and infrastructure systems.<br/>
+My work sits at the intersection of <b>backend engineering, systems design, DevOps, and applied cybersecurity research</b>.
 </p>
 
 ---
 
-## 📌 Current Focus
+## 🧠 What I Do
 
-- Secure backend architectures  
-- Infrastructure hardening & automation  
-- Network security & monitoring  
-- Applied cybersecurity research  
+<p align="center">
+I design <b>secure system architectures</b>, build <b>high-performance backend services</b>, and work on <b>infrastructure hardening and automation</b>.<br/>
+My main goal is to create systems that are not only functional, but <b>secure, scalable, and resilient by design</b>.
+</p>
 
 ---
 
-## 🧪 Research & Technical Interests
+## 🧩 Core Expertise
+
+<div align="center">
 
 | Domain | Focus |
 |------|------|
-| 🔐 Security | Network security, detection & defense, secure design |
-| ⚙️ Systems | Linux, automation, infrastructure hardening |
+| 🔐 Cybersecurity | Secure design, detection & defense, network security |
+| ⚙️ Systems | Linux, infrastructure hardening, automation |
 | 🖥 Backend | High-performance APIs, scalability, reliability |
-| 🧪 Research | Applied security experiments & R&D |
+| 🧪 R&D | Applied security research, system experimentation |
+
+</div>
 
 ---
 
-## 💻 Core Tech Stack
+## 🛠 Technology Stack
 
 <div align="center">
 
@@ -60,35 +64,38 @@ Strong background in <b>secure system design, backend engineering, DevOps, and a
 ![Python](https://img.shields.io/badge/Python-3670A0?style=flat&logo=python&logoColor=ffdd54)
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)
 
-**Backend & Web**
+**Backend & Systems**
 
 ![Django](https://img.shields.io/badge/Django-%23092E20.svg?style=flat&logo=django&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-%23000.svg?style=flat&logo=flask&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-%23563D7C.svg?style=flat&logo=bootstrap&logoColor=white)
-
-**Databases**
-
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=flat&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-%2300f.svg?style=flat&logo=mysql&logoColor=white)
 ![Microsoft SQL Server](https://img.shields.io/badge/MSSQL-CC2927?style=flat&logo=microsoft%20sql%20server&logoColor=white)
-
-**Systems & Tools**
-
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
-![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=flat&logo=anaconda&logoColor=white)
 
 </div>
 
 ---
 
-## 🛠 Selected Projects
+## 🧪 Research & Interests
 
-*(You can replace these with your real repositories later)*
+<p align="center">
+Secure system architectures • Network security • Infrastructure automation • Backend performance • Applied cybersecurity research
+</p>
 
-- 🔐 **Secure API Services** — Hardened backend services with authentication & rate limiting  
-- ⚙️ **Infrastructure Toolkit** — Automation & hardening scripts for Linux servers  
-- 🧪 **Security Labs** — Practical experiments on detection & defensive techniques  
+---
+
+## 🛠 Selected Work
+
+<p align="center">
+Here I showcase a small number of projects that reflect my focus on <b>security, systems, and backend engineering</b>.
+</p>
+
+- 🔐 **Secure Backend Services** — Authentication, rate limiting, logging, and secure API design  
+- ⚙️ **Infrastructure Tooling** — Automation & hardening for Linux-based systems  
+- 🧪 **Security Experiments** — Practical research on detection & defensive techniques  
+
+*(You can later replace these with your real repositories.)*
 
 ---
 
@@ -97,7 +104,6 @@ Strong background in <b>secure system design, backend engineering, DevOps, and a
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=omersayak&theme=midnight-purple&hide_border=true&show_icons=true" height="170"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=omersayak&theme=midnight-purple&hide_border=true" height="170"/>
 
 <br/>
 
@@ -123,4 +129,4 @@ Strong background in <b>secure system design, backend engineering, DevOps, and a
 
 </div>
 
-<!-- Final Elite, Stable, Corporate-Safe Systems & Cybersecurity Profile -->
+<!-- Elite Portfolio README for Systems & Cybersecurity Engineer -->
