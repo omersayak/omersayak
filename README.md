@@ -68,7 +68,7 @@ My main interests include **secure system design, backend engineering, infrastru
 
 ## 🏆 GitHub Trophies
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=omersayak&theme=onedark&no-frame=true&margin-w=8)
+<img src="https://github-profile-trophy.vercel.app/?username=omersayak&theme=onedark&no-frame=true&margin-w=8" />
 
 ---
 
@@ -84,12 +84,6 @@ My main interests include **secure system design, backend engineering, infrastru
 
 ---
 
-## 🔝 Top Contributed Repositories
-
-![](https://github-contributor-stats.vercel.app/api?username=omersayak&limit=5&theme=tokyonight&combine_all_yearly_contributions=true)
-
----
-
 [![](https://visitcount.itsvg.in/api?id=omersayak&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Neutral, corporate-safe README -->
+<!-- Final, stable, corporate-safe README -->
