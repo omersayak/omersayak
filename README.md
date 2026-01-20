@@ -124,9 +124,6 @@ Here I showcase a small number of projects that reflect my focus on <b>security,
 ---
 
 <div align="center">
-
-<img src="https://visitcount.itsvg.in/api?id=omersayak&icon=0&color=0" />
-
+  <img src="https://komarev.com/ghpvc/?username=omersayak&label=Profile%20Views&color=0e75b6&style=flat" />
 </div>
 
-<!-- Elite Portfolio README for Systems & Cybersecurity Engineer -->
