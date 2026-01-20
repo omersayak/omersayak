@@ -3,7 +3,7 @@
 
 
 # 💫 About Me:
-I'm System and Cybersecurity Specialist 
+I'm Systems & Cybersecurity R&D Professional 
 
 
 ## 🌐 Socials:
