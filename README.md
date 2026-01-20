@@ -66,10 +66,6 @@ My main interests include **secure system design, backend engineering, infrastru
 
 ---
 
-## 🏆 GitHub Trophies
-
-<img src="https://github-profile-trophy.vercel.app/?username=omersayak&theme=onedark&no-frame=true&margin-w=8" />
-
 ---
 
 ## 🐦 Twitter
@@ -85,5 +81,6 @@ My main interests include **secure system design, backend engineering, infrastru
 ---
 
 [![](https://visitcount.itsvg.in/api?id=omersayak&icon=0&color=0)](https://visitcount.itsvg.in)
+
 
 <!-- Final, stable, corporate-safe README -->
