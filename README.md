@@ -8,6 +8,9 @@
 <a href="https://linkedin.com/in/omersayak">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white"/>
 </a>
+<a href="https://instagram.com/omersayakk">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white"/>
+</a>
 <a href="https://medium.com/@omersayak">
   <img src="https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white"/>
 </a>
@@ -15,6 +18,7 @@
   <img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white"/>
 </a>
 </p>
+
 
 </div>
 
