@@ -121,9 +121,7 @@ Here I showcase a small number of projects that reflect my focus on <b>security,
 
 </div>
 
----
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=omersayak&label=Profile%20Views&color=0e75b6&style=flat" />
-</div>
+
+
 
