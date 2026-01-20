@@ -5,9 +5,15 @@
 <br/><br/>
 
 <p>
-<a href="https://linkedin.com/in/omersayak"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white"/></a>
-<a href="https://twitter.com/omersayakk"><img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white"/></a>
-<a href="https://medium.com/@omersayak"><img src="https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white"/></a>
+<a href="https://linkedin.com/in/omersayak">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white"/>
+</a>
+<a href="https://twitter.com/omersayakk">
+  <img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white"/>
+</a>
+<a href="https://medium.com/@omersayak">
+  <img src="https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white"/>
+</a>
 </p>
 
 </div>
@@ -64,7 +70,7 @@ Strong background in <b>secure system design, backend engineering, DevOps, and a
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=flat&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-%2300f.svg?style=flat&logo=mysql&logoColor=white)
-![MSSQL](https://img.shields.io/badge/MSSQL-CC2927?style=flat&logo=microsoft%20sql%20server&logoColor=white)
+![Microsoft SQL Server](https://img.shields.io/badge/MSSQL-CC2927?style=flat&logo=microsoft%20sql%20server&logoColor=white)
 
 **Systems & Tools**
 
@@ -78,7 +84,7 @@ Strong background in <b>secure system design, backend engineering, DevOps, and a
 
 ## 🛠 Selected Projects
 
-> (Burayı 3–4 önemli repo ile dolduracağız)
+*(You can replace these with your real repositories later)*
 
 - 🔐 **Secure API Services** — Hardened backend services with authentication & rate limiting  
 - ⚙️ **Infrastructure Toolkit** — Automation & hardening scripts for Linux servers  
@@ -117,4 +123,4 @@ Strong background in <b>secure system design, backend engineering, DevOps, and a
 
 </div>
 
-<!-- Elite Systems & Cybersecurity Engineer Profile -->
+
