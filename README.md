@@ -6,19 +6,16 @@
 
 <p align="center">
 <a href="https://linkedin.com/in/omersayak">
-  <img width="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"/>
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
-&nbsp;&nbsp;
 <a href="https://instagram.com/omersayakk">
-  <img width="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/instagram/instagram-original.svg"/>
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
 </a>
-&nbsp;&nbsp;
 <a href="https://medium.com/@omersayak">
-  <img width="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/medium/medium-original.svg"/>
+  <img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white"/>
 </a>
-&nbsp;&nbsp;
 <a href="https://twitter.com/omersayakk">
-  <img width="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg"/>
+  <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/>
 </a>
 </p>
 
