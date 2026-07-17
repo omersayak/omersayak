@@ -1,42 +1,55 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/light.svg">
-  <img alt="Ömer Şayak — Cybersecurity Profile" src="./assets/dark.svg" width="100%">
+  <img alt="Ömer Şayak — Systems & Cybersecurity Professional" src="./assets/dark.svg" width="100%">
 </picture>
 
-## `whoami`
+## `profile`
 
-Cybersecurity professional focused on **SIEM operations, detection engineering, adversary simulation, internal offensive security, and secure systems development**.
+I work across **cybersecurity operations, systems engineering, detection engineering, adversary simulation, secure infrastructure, and security-focused software development**.
+
+My focus is not limited to a single product or discipline. I connect endpoint and network telemetry, SIEM correlation logic, controlled attack simulation, infrastructure controls, and automation to understand whether defensive systems work as intended.
+
+## `core_domains`
+
+| Domain | What I work on |
+|---|---|
+| Security Operations | SIEM monitoring, offense investigation, log-source health, correlation and operational visibility |
+| Detection Engineering | Rule design and validation, Windows telemetry, custom fields, use-case improvement and false-positive reduction |
+| Adversary Simulation | Controlled ATT&CK-aligned simulations, Caldera operations and attack-to-detection validation |
+| EDR/XDR Validation | Comparative testing of telemetry, prevention, alert generation and product behavior |
+| Systems & Infrastructure | Windows, Linux, virtualization, identity, network security, firewalls and secure access |
+| Security Development | Python, Django, automation, APIs and internal security tooling |
+
+## `how_i_work`
 
 ```text
-Primary stack : QRadar • Splunk • MITRE Caldera • Sigma • Python • Linux
-Current focus : Reliable detections, rule validation, IDCA operations, purple teaming
-Portfolio     : https://breachion.com
+Adversary behavior
+        ↓
+Endpoint / network telemetry
+        ↓
+Collection and normalization
+        ↓
+Detection and correlation
+        ↓
+Investigation and validation
+        ↓
+Engineering improvement
 ```
 
-## `mission`
+I prefer repeatable, evidence-driven workflows: reproduce the behavior, inspect the telemetry, verify the detection path, identify the gap, and improve the control.
 
-I turn adversary behavior into measurable, testable, and operational detections. My work combines offensive validation with defensive engineering so that security rules are not merely present—they are proven to work.
+## `technology`
 
-## `capabilities`
-
-| Area | Focus |
-|---|---|
-| SIEM Engineering | QRadar, Splunk, correlation rules, offense analysis, log-source validation |
-| Detection Engineering | Sigma, Windows telemetry, custom fields, false-positive reduction |
-| Adversary Simulation | MITRE Caldera, atomic testing, IDCA, purple-team workflows |
-| Infrastructure Security | Linux, Windows, VMware, FortiGate, network and access controls |
-| Secure Development | Python, Django, automation, security-focused internal tooling |
-
-## `current_operations`
-
-- Building and validating SIEM detections against realistic attack behavior
-- Improving Caldera-based adversary simulation workflows
-- Developing Breachion security services and technical products
-- Designing repeatable purple-team and detection-validation processes
+```text
+SIEM       QRadar • Splunk • Sigma
+Simulation MITRE ATT&CK • MITRE Caldera
+Systems    Windows • Linux • VMware • Active Directory
+Network    FortiGate • TCP/IP • VPN • Secure Access
+Code       Python • Django • REST APIs • Git
+```
 
 ## `contact`
 
-- Website: [breachion.com](https://breachion.com)
-- GitHub: replace this line with your final GitHub profile URL
-- LinkedIn: replace this line with your LinkedIn profile URL
+- GitHub: [github.com/omersayak](https://github.com/omersayak)
+- LinkedIn: Add your LinkedIn profile URL here
