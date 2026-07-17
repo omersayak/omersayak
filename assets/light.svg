@@ -1,96 +1,81 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="560" viewBox="0 0 1180 560" role="img" aria-labelledby="title desc">
-<title id="title">Ömer Şayak — Systems &amp; Cybersecurity Professional</title>
-<desc id="desc">Animated GitHub profile banner presenting cybersecurity operations, systems engineering, detection engineering, adversary simulation and secure development.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="640" viewBox="0 0 1180 640" role="img" aria-labelledby="title desc">
+<title id="title">Ömer Şayak — Cybersecurity Engineer</title>
+<desc id="desc">Premium animated GitHub profile banner for a cybersecurity engineer working across security, systems, software, automation and applied research.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F7F9FC"/><stop offset="1" stop-color="#FFFFFF"/></linearGradient>
-  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-    <stop stop-color="#2563EB"><animate attributeName="stop-color" values="#2563EB;#0891B2;#7C3AED;#2563EB" dur="12s" repeatCount="indefinite"/></stop>
-    <stop offset=".5" stop-color="#0891B2"><animate attributeName="stop-color" values="#0891B2;#7C3AED;#059669;#0891B2" dur="12s" repeatCount="indefinite"/></stop>
-    <stop offset="1" stop-color="#7C3AED"><animate attributeName="stop-color" values="#7C3AED;#059669;#2563EB;#7C3AED" dur="12s" repeatCount="indefinite"/></stop>
-  </linearGradient>
-  <radialGradient id="g1"><stop stop-color="#2563EB" stop-opacity=".20"/><stop offset="1" stop-color="#2563EB" stop-opacity="0"/></radialGradient>
-  <radialGradient id="g2"><stop stop-color="#7C3AED" stop-opacity=".16"/><stop offset="1" stop-color="#7C3AED" stop-opacity="0"/></radialGradient>
-  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#0F172A" stroke-opacity=".035"/></pattern>
-  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000" flood-opacity=".12"/></filter>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F8FAFC"/><stop offset="1" stop-color="#EEF2FF"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#2563EB"><animate attributeName="stop-color" values="#2563EB;#0891B2;#7C3AED;#2563EB" dur="13s" repeatCount="indefinite"/></stop><stop offset=".52" stop-color="#0891B2"><animate attributeName="stop-color" values="#0891B2;#7C3AED;#059669;#0891B2" dur="13s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#7C3AED"><animate attributeName="stop-color" values="#7C3AED;#059669;#2563EB;#7C3AED" dur="13s" repeatCount="indefinite"/></stop></linearGradient>
+  <radialGradient id="orb"><stop stop-color="#0891B2" stop-opacity=".22"/><stop offset=".52" stop-color="#7C3AED" stop-opacity=".08"/><stop offset="1" stop-color="#7C3AED" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#0F172A" stroke-opacity=".035"/></pattern>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#64748B" flood-opacity=".28"/></filter>
   <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  <clipPath id="clip"><rect x="18" y="18" width="1144" height="524" rx="30"/></clipPath>
+  <clipPath id="frame"><rect x="18" y="18" width="1144" height="604" rx="30"/></clipPath>
 </defs>
+<g clip-path="url(#frame)">
+  <rect x="18" y="18" width="1144" height="604" rx="30" fill="url(#bg)"/>
+  <rect x="18" y="18" width="1144" height="604" rx="30" fill="url(#grid)"/>
+  <circle cx="1035" cy="100" r="280" fill="url(#orb)"><animateTransform attributeName="transform" type="translate" values="0 0;-40 20;0 0" dur="17s" repeatCount="indefinite"/></circle>
+  <circle cx="135" cy="560" r="250" fill="url(#orb)" opacity=".72"><animateTransform attributeName="transform" type="translate" values="0 0;38 -24;0 0" dur="21s" repeatCount="indefinite"/></circle>
 
-<g clip-path="url(#clip)">
-  <rect x="18" y="18" width="1144" height="524" rx="30" fill="url(#bg)"/>
-  <rect x="18" y="18" width="1144" height="524" rx="30" fill="url(#grid)"/>
-  <circle cx="130" cy="72" r="260" fill="url(#g1)"><animateTransform attributeName="transform" type="translate" values="0 0;44 18;0 0" dur="16s" repeatCount="indefinite"/></circle>
-  <circle cx="1050" cy="470" r="300" fill="url(#g2)"><animateTransform attributeName="transform" type="translate" values="0 0;-35 -20;0 0" dur="19s" repeatCount="indefinite"/></circle>
-
-  <!-- top navigation rail -->
   <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace">
-    <circle cx="54" cy="50" r="5" fill="#E11D48"/><circle cx="72" cy="50" r="5" fill="#FBBF24"/><circle cx="90" cy="50" r="5" fill="#059669"/>
-    <text x="118" y="55" font-size="11" fill="#94A3B8" letter-spacing="1.5">PROFILE / SECURITY-OPERATIONS-CONSOLE</text>
-    <text x="1126" y="55" text-anchor="end" font-size="11" fill="#059669">● ONLINE</text>
-    <line x1="42" y1="72" x2="1138" y2="72" stroke="#0F172A" stroke-opacity=".07"/>
+    <circle cx="52" cy="48" r="4.5" fill="#FB7185"/><circle cx="69" cy="48" r="4.5" fill="#FBBF24"/><circle cx="86" cy="48" r="4.5" fill="#34D399"/>
+    <text x="112" y="52" font-size="10.5" fill="#64748B" letter-spacing="1.8">PROFILE / ENGINEERING-IDENTITY</text>
+    <g transform="translate(1022 40)"><rect width="108" height="22" rx="11" fill="#FFFFFF" stroke="#0F172A" stroke-opacity=".09"/><circle cx="14" cy="11" r="3.5" fill="#059669" filter="url(#glow)"><animate attributeName="opacity" values=".35;1;.35" dur="2.2s" repeatCount="indefinite"/></circle><text x="26" y="15" font-size="9.5" fill="#0F172A" letter-spacing="1">AVAILABLE</text></g>
+    <line x1="40" y1="70" x2="1140" y2="70" stroke="#0F172A" stroke-opacity=".09"/>
   </g>
 
-  <!-- left identity -->
-  <g transform="translate(62 108)" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">
-    <text x="0" y="20" font-size="13" fill="#0891B2" letter-spacing="2.4">HELLO, I’M</text>
-    <text x="0" y="84" font-size="54" font-weight="800" fill="#0F172A" letter-spacing="-1.5">ÖMER ŞAYAK</text>
-    <rect x="0" y="104" width="390" height="3" rx="1.5" fill="url(#accent)"><animate attributeName="width" values="90;390;90" dur="8s" repeatCount="indefinite"/></rect>
-    <text x="0" y="144" font-size="19" font-weight="650" fill="#0F172A">SYSTEMS &amp; CYBERSECURITY PROFESSIONAL</text>
-    <text x="0" y="174" font-size="13" fill="#64748B">Security operations • systems engineering • secure development</text>
+  <!-- identity -->
+  <g transform="translate(62 110)" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">
+    <text x="0" y="0" font-size="12" fill="#0891B2" letter-spacing="2.8" font-weight="700">ÖMER ŞAYAK</text>
+    <text x="0" y="60" font-size="51" font-weight="820" fill="#0F172A" letter-spacing="-1.8">CYBERSECURITY</text>
+    <text x="0" y="112" font-size="51" font-weight="820" fill="url(#accent)" letter-spacing="-1.8">ENGINEER</text>
+    <rect x="0" y="133" width="410" height="3" rx="1.5" fill="url(#accent)"><animate attributeName="width" values="90;410;90" dur="9s" repeatCount="indefinite"/></rect>
+    <text x="0" y="176" font-size="16" fill="#0F172A" font-weight="620">Engineering secure systems and reliable defenses.</text>
+    <text x="0" y="205" font-size="13" fill="#64748B">Security • Systems • Software • Automation • Research</text>
 
-    <g transform="translate(0 216)" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">
-      <text x="0" y="0" font-size="11" fill="#94A3B8" letter-spacing="1.4">WORKING ACROSS</text>
-      <g transform="translate(0 20)" font-size="12">
-        <rect width="176" height="34" rx="10" fill="#FFFFFF" stroke="#0F172A" stroke-opacity=".09"/><circle cx="17" cy="17" r="4" fill="#0891B2"/><text x="30" y="22" fill="#0F172A">SIEM Operations</text>
-        <g transform="translate(188 0)"><rect width="192" height="34" rx="10" fill="#FFFFFF" stroke="#0F172A" stroke-opacity=".09"/><circle cx="17" cy="17" r="4" fill="#7C3AED"/><text x="30" y="22" fill="#0F172A">Detection Engineering</text></g>
-        <g transform="translate(0 46)"><rect width="176" height="34" rx="10" fill="#FFFFFF" stroke="#0F172A" stroke-opacity=".09"/><circle cx="17" cy="17" r="4" fill="#059669"/><text x="30" y="22" fill="#0F172A">Adversary Simulation</text></g>
-        <g transform="translate(188 46)"><rect width="192" height="34" rx="10" fill="#FFFFFF" stroke="#0F172A" stroke-opacity=".09"/><circle cx="17" cy="17" r="4" fill="#2563EB"/><text x="30" y="22" fill="#0F172A">Secure Infrastructure</text></g>
-        <g transform="translate(0 92)"><rect width="176" height="34" rx="10" fill="#FFFFFF" stroke="#0F172A" stroke-opacity=".09"/><circle cx="17" cy="17" r="4" fill="#7C3AED"/><text x="30" y="22" fill="#0F172A">EDR / XDR Validation</text></g>
-        <g transform="translate(188 92)"><rect width="192" height="34" rx="10" fill="#FFFFFF" stroke="#0F172A" stroke-opacity=".09"/><circle cx="17" cy="17" r="4" fill="#0891B2"/><text x="30" y="22" fill="#0F172A">Security Automation</text></g>
-      </g>
+    <g transform="translate(0 250)">
+      <rect width="424" height="170" rx="20" fill="#FFFFFF" fill-opacity=".82" stroke="#0F172A" stroke-opacity=".09"/>
+      <text x="20" y="30" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="10.5" fill="#64748B" letter-spacing="1.6">ENGINEERING PRINCIPLE</text>
+      <text x="20" y="65" font-size="15" fill="#0F172A" font-weight="650">Security is strongest when it is</text>
+      <text x="20" y="91" font-size="15" fill="#0F172A" font-weight="650">designed into the system — not</text>
+      <text x="20" y="117" font-size="15" fill="#0F172A" font-weight="650">added after it is built.</text>
+      <g transform="translate(20 139)" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="10.5"><circle cx="4" cy="0" r="3" fill="#059669"/><text x="15" y="4" fill="#64748B">BUILD  •  VALIDATE  •  IMPROVE</text></g>
     </g>
   </g>
 
-  <!-- right command panel -->
-  <g transform="translate(500 102)" filter="url(#shadow)">
-    <rect width="620" height="402" rx="22" fill="#FFFFFF" fill-opacity=".94" stroke="#0F172A" stroke-opacity=".09"/>
-    <path d="M0 0h620v90C470 48 220 42 0 78z" fill="#0F172A" opacity=".025"/>
+  <!-- capability system -->
+  <g transform="translate(530 100)" filter="url(#shadow)">
+    <rect width="590" height="466" rx="24" fill="#FFFFFF" fill-opacity=".9" stroke="#0F172A" stroke-opacity=".09"/>
+    <path d="M0 0h590v94C430 50 205 41 0 76z" fill="#0F172A" opacity=".025"/>
   </g>
+  <g transform="translate(556 128)" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">
+    <text x="0" y="0" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="10.5" fill="#64748B" letter-spacing="1.6">PROFESSIONAL DOMAINS</text>
+    <text x="538" y="0" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="10.5" fill="#0891B2">SYSTEM MAP</text>
 
-  <g transform="translate(526 126)" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">
-    <text x="0" y="0" font-size="11" fill="#94A3B8" letter-spacing="1.5">DEFENSIVE ENGINEERING PIPELINE</text>
-    <text x="566" y="0" text-anchor="end" font-size="11" fill="#0891B2">REAL-TIME VIEW</text>
-
-    <!-- pipeline -->
-    <g transform="translate(0 28)">
-      <line x1="34" y1="42" x2="530" y2="42" stroke="#0F172A" stroke-opacity=".12" stroke-width="2"/>
-      <line x1="34" y1="42" x2="530" y2="42" stroke="url(#accent)" stroke-width="2" stroke-dasharray="42 500"><animate attributeName="stroke-dashoffset" values="0;-542" dur="4.5s" repeatCount="indefinite"/></line>
-      <g transform="translate(34 0)"><circle cx="0" cy="42" r="18" fill="#F8FAFC" stroke="#2563EB" stroke-opacity=".65"/><circle cx="0" cy="42" r="5" fill="#2563EB" filter="url(#glow)"><animate attributeName="opacity" values=".35;1;.35" begin="0.0s" dur="3.3s" repeatCount="indefinite"/></circle><text x="0" y="82" text-anchor="middle" font-size="10" fill="#64748B">BEHAVIOR</text></g><g transform="translate(158 0)"><circle cx="0" cy="42" r="18" fill="#F8FAFC" stroke="#0891B2" stroke-opacity=".65"/><circle cx="0" cy="42" r="5" fill="#0891B2" filter="url(#glow)"><animate attributeName="opacity" values=".35;1;.35" begin="0.55s" dur="3.3s" repeatCount="indefinite"/></circle><text x="0" y="82" text-anchor="middle" font-size="10" fill="#64748B">TELEMETRY</text></g><g transform="translate(282 0)"><circle cx="0" cy="42" r="18" fill="#F8FAFC" stroke="#7C3AED" stroke-opacity=".65"/><circle cx="0" cy="42" r="5" fill="#7C3AED" filter="url(#glow)"><animate attributeName="opacity" values=".35;1;.35" begin="1.1s" dur="3.3s" repeatCount="indefinite"/></circle><text x="0" y="82" text-anchor="middle" font-size="10" fill="#64748B">CORRELATION</text></g><g transform="translate(406 0)"><circle cx="0" cy="42" r="18" fill="#F8FAFC" stroke="#059669" stroke-opacity=".65"/><circle cx="0" cy="42" r="5" fill="#059669" filter="url(#glow)"><animate attributeName="opacity" values=".35;1;.35" begin="1.6500000000000001s" dur="3.3s" repeatCount="indefinite"/></circle><text x="0" y="82" text-anchor="middle" font-size="10" fill="#64748B">VALIDATION</text></g><g transform="translate(530 0)"><circle cx="0" cy="42" r="18" fill="#F8FAFC" stroke="#2563EB" stroke-opacity=".65"/><circle cx="0" cy="42" r="5" fill="#2563EB" filter="url(#glow)"><animate attributeName="opacity" values=".35;1;.35" begin="2.2s" dur="3.3s" repeatCount="indefinite"/></circle><text x="0" y="82" text-anchor="middle" font-size="10" fill="#64748B">IMPROVEMENT</text></g>
-      <circle cx="34" cy="42" r="4" fill="#0891B2"><animate attributeName="cx" values="34;530" dur="4.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" dur="4.5s" repeatCount="indefinite"/></circle>
+    <!-- central animated core -->
+    <g transform="translate(269 122)">
+      <circle r="62" fill="none" stroke="#0F172A" stroke-opacity=".08"/>
+      <circle r="47" fill="none" stroke="url(#accent)" stroke-width="1.5" stroke-dasharray="22 11"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="15s" repeatCount="indefinite"/></circle>
+      <circle r="31" fill="url(#orb)" stroke="#0891B2" stroke-opacity=".45"/>
+      <path d="M-13 2l9 9 20-24" fill="none" stroke="#0F172A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle r="6" fill="#0891B2" opacity=".4"><animate attributeName="r" values="5;11;5" dur="2.8s" repeatCount="indefinite"/><animate attributeName="opacity" values=".5;.05;.5" dur="2.8s" repeatCount="indefinite"/></circle>
     </g>
 
-    <!-- terminal narrative -->
-    <g transform="translate(0 146)">
-      <rect width="568" height="116" rx="14" fill="#F8FAFC" stroke="#0F172A" stroke-opacity=".07"/>
-      <text x="18" y="28" font-size="12" fill="#0891B2">omer@security:~$</text><text x="150" y="28" font-size="12" fill="#0F172A">describe-work</text>
-      <g opacity="0"><animate attributeName="opacity" values="0;1" begin=".4s" dur=".5s" fill="freeze"/><text x="18" y="55" font-size="12" fill="#64748B">I connect attack behavior, telemetry, detection logic and infrastructure</text></g>
-      <g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.0s" dur=".5s" fill="freeze"/><text x="18" y="78" font-size="12" fill="#64748B">to verify controls, investigate gaps and engineer reliable security outcomes.</text></g>
-      <rect x="18" y="94" width="8" height="14" rx="1" fill="#0891B2"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
-    </g>
+    <!-- connection lines -->
+    <g fill="none" stroke="#0F172A" stroke-opacity=".13"><path d="M205 122H151"/><path d="M333 122h54"/><path d="M226 77l-40-37"/><path d="M312 77l40-37"/><path d="M226 167l-40 38"/><path d="M312 167l40 38"/></g>
+    <g fill="#0891B2"><circle r="3"><animateMotion path="M205 122H151" dur="2.6s" repeatCount="indefinite"/></circle><circle r="3"><animateMotion path="M333 122h54" begin=".4s" dur="2.6s" repeatCount="indefinite"/></circle><circle r="3"><animateMotion path="M226 77l-40-37" begin=".8s" dur="2.6s" repeatCount="indefinite"/></circle><circle r="3"><animateMotion path="M312 77l40-37" begin="1.2s" dur="2.6s" repeatCount="indefinite"/></circle><circle r="3"><animateMotion path="M226 167l-40 38" begin="1.6s" dur="2.6s" repeatCount="indefinite"/></circle><circle r="3"><animateMotion path="M312 167l40 38" begin="2s" dur="2.6s" repeatCount="indefinite"/></circle></g>
 
-    <!-- tech rail -->
-    <g transform="translate(0 284)">
-      <text x="0" y="0" font-size="11" fill="#94A3B8" letter-spacing="1.5">TOOLING &amp; PLATFORMS</text>
-      <g transform="translate(0 16)" font-size="11" fill="#0F172A">
-        <rect width="568" height="48" rx="12" fill="#F8FAFC" stroke="#0F172A" stroke-opacity=".07"/>
-        <text x="18" y="29">QRadar</text><text x="84" y="29" fill="#94A3B8">/</text><text x="101" y="29">Splunk</text><text x="159" y="29" fill="#94A3B8">/</text><text x="176" y="29">Caldera</text><text x="242" y="29" fill="#94A3B8">/</text><text x="259" y="29">Sigma</text><text x="310" y="29" fill="#94A3B8">/</text><text x="327" y="29">Python</text><text x="382" y="29" fill="#94A3B8">/</text><text x="399" y="29">Linux</text><text x="448" y="29" fill="#94A3B8">/</text><text x="465" y="29">VMware</text>
-      </g>
+    <!-- six cards -->
+    <g transform="translate(0 38)"><rect width="190" height="68" rx="14" fill="#F8FAFC" stroke="#0F172A" stroke-opacity=".09"/><rect x="0" y="0" width="3" height="68" rx="1.5" fill="#2563EB"/><text x="16" y="26" font-size="12" font-weight="700" fill="#0F172A">Security Engineering</text><text x="16" y="47" font-size="10.5" fill="#64748B">Secure design &amp; defensive systems</text></g><g transform="translate(348 38)"><rect width="190" height="68" rx="14" fill="#F8FAFC" stroke="#0F172A" stroke-opacity=".09"/><rect x="0" y="0" width="3" height="68" rx="1.5" fill="#0891B2"/><text x="16" y="26" font-size="12" font-weight="700" fill="#0F172A">Detection Engineering</text><text x="16" y="47" font-size="10.5" fill="#64748B">Reliable analytics &amp; validation</text></g><g transform="translate(0 171)"><rect width="190" height="68" rx="14" fill="#F8FAFC" stroke="#0F172A" stroke-opacity=".09"/><rect x="0" y="0" width="3" height="68" rx="1.5" fill="#7C3AED"/><text x="16" y="26" font-size="12" font-weight="700" fill="#0F172A">Systems Engineering</text><text x="16" y="47" font-size="10.5" fill="#64748B">Resilient infrastructure design</text></g><g transform="translate(348 171)"><rect width="190" height="68" rx="14" fill="#F8FAFC" stroke="#0F172A" stroke-opacity=".09"/><rect x="0" y="0" width="3" height="68" rx="1.5" fill="#059669"/><text x="16" y="26" font-size="12" font-weight="700" fill="#0F172A">Software Development</text><text x="16" y="47" font-size="10.5" fill="#64748B">Backend platforms &amp; tooling</text></g><g transform="translate(0 304)"><rect width="190" height="68" rx="14" fill="#F8FAFC" stroke="#0F172A" stroke-opacity=".09"/><rect x="0" y="0" width="3" height="68" rx="1.5" fill="#0891B2"/><text x="16" y="26" font-size="12" font-weight="700" fill="#0F172A">Security Automation</text><text x="16" y="47" font-size="10.5" fill="#64748B">Repeatable operational workflows</text></g><g transform="translate(348 304)"><rect width="190" height="68" rx="14" fill="#F8FAFC" stroke="#0F172A" stroke-opacity=".09"/><rect x="0" y="0" width="3" height="68" rx="1.5" fill="#2563EB"/><text x="16" y="26" font-size="12" font-weight="700" fill="#0F172A">Applied Research</text><text x="16" y="47" font-size="10.5" fill="#64748B">Practical security experimentation</text></g>
+
+    <!-- lifecycle -->
+    <g transform="translate(0 396)" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">
+      <text x="0" y="0" font-size="10.5" fill="#64748B" letter-spacing="1.5">ENGINEERING LOOP</text>
+      <g transform="translate(0 17)"><rect width="538" height="38" rx="11" fill="#F8FAFC" stroke="#0F172A" stroke-opacity=".09"/><text x="18" y="24" font-size="10.5" fill="#0F172A">UNDERSTAND</text><text x="105" y="24" fill="#64748B">→</text><text x="128" y="24" font-size="10.5" fill="#0F172A">DESIGN</text><text x="190" y="24" fill="#64748B">→</text><text x="214" y="24" font-size="10.5" fill="#0F172A">BUILD</text><text x="266" y="24" fill="#64748B">→</text><text x="291" y="24" font-size="10.5" fill="#0F172A">VALIDATE</text><text x="369" y="24" fill="#64748B">→</text><text x="394" y="24" font-size="10.5" fill="#0F172A">IMPROVE</text><rect x="475" y="13" width="7" height="12" rx="1" fill="#0891B2"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect></g>
     </g>
   </g>
 
-  <!-- ambient sweep -->
-  <rect x="18" y="18" width="1144" height="2" fill="url(#accent)" opacity=".18"><animate attributeName="y" values="18;540;18" dur="9s" repeatCount="indefinite"/></rect>
+  <rect x="18" y="18" width="1144" height="2" fill="url(#accent)" opacity=".13"><animate attributeName="y" values="18;620;18" dur="11s" repeatCount="indefinite"/></rect>
 </g>
-<rect x="18" y="18" width="1144" height="524" rx="30" fill="none" stroke="url(#accent)" stroke-opacity=".55" stroke-width="1.2"/>
-<rect x="22" y="22" width="1136" height="516" rx="27" fill="none" stroke="#0F172A" stroke-opacity=".045"/>
+<rect x="18" y="18" width="1144" height="604" rx="30" fill="none" stroke="url(#accent)" stroke-opacity=".48" stroke-width="1.2"/>
+<rect x="22" y="22" width="1136" height="596" rx="27" fill="none" stroke="#0F172A" stroke-opacity=".045"/>
 </svg>
