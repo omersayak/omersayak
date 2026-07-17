@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610" role="img" aria-labelledby="title desc">
+  <title id="title">Ömer Şayak — Cybersecurity Profile</title>
+  <desc id="desc">Animated cybersecurity operations themed GitHub profile banner.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#030712"/>
+      <stop offset="0.55" stop-color="#07111f"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c3aed">
+        <animate attributeName="stop-color" values="#7c3aed;#22d3ee;#10b981;#7c3aed" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="0.5" stop-color="#22d3ee">
+        <animate attributeName="stop-color" values="#22d3ee;#10b981;#7c3aed;#22d3ee" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#10b981">
+        <animate attributeName="stop-color" values="#10b981;#7c3aed;#22d3ee;#10b981" dur="10s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <radialGradient id="glow1"><stop offset="0" stop-color="#2563eb" stop-opacity=".24"/><stop offset="1" stop-color="#2563eb" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glow2"><stop offset="0" stop-color="#7c3aed" stop-opacity=".2"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glow3"><stop offset="0" stop-color="#10b981" stop-opacity=".14"/><stop offset="1" stop-color="#10b981" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000" flood-opacity=".46"/></filter>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="tinyGlow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#94a3b8" stroke-opacity=".05" stroke-width="1"/></pattern>
+    <clipPath id="frameClip"><rect x="18" y="18" width="1144" height="574" rx="28"/></clipPath>
+    <mask id="fadeMask"><rect width="1180" height="610" fill="white"/><rect x="0" y="0" width="1180" height="80" fill="url(#topFade)"/></mask>
+    <linearGradient id="topFade" x1="0" y1="0" x2="0" y2="1"><stop stop-color="black"/><stop offset="1" stop-color="white"/></linearGradient>
+  </defs>
+
+  <g clip-path="url(#frameClip)">
+    <rect x="18" y="18" width="1144" height="574" rx="28" fill="url(#bg)"/>
+    <rect x="18" y="18" width="1144" height="574" rx="28" fill="url(#grid)"/>
+    <circle cx="170" cy="90" r="230" fill="url(#glow1)"><animateTransform attributeName="transform" type="translate" values="0 0;40 20;0 0" dur="14s" repeatCount="indefinite"/></circle>
+    <circle cx="980" cy="135" r="245" fill="url(#glow2)"><animateTransform attributeName="transform" type="translate" values="0 0;-30 24;0 0" dur="16s" repeatCount="indefinite"/></circle>
+    <circle cx="860" cy="540" r="260" fill="url(#glow3)"><animateTransform attributeName="transform" type="translate" values="0 0;20 -30;0 0" dur="18s" repeatCount="indefinite"/></circle>
+
+    <g opacity=".55">
+      <circle cx="70" cy="92" r="1.8" fill="#22d3ee"><animate attributeName="opacity" values=".2;1;.2" dur="3.2s" repeatCount="indefinite"/></circle>
+      <circle cx="344" cy="72" r="1.5" fill="#a78bfa"><animate attributeName="opacity" values="1;.2;1" dur="4.4s" repeatCount="indefinite"/></circle>
+      <circle cx="1040" cy="105" r="1.7" fill="#34d399"><animate attributeName="cy" values="105;88;105" dur="5.5s" repeatCount="indefinite"/></circle>
+      <circle cx="1100" cy="510" r="1.6" fill="#22d3ee"><animate attributeName="cx" values="1100;1084;1100" dur="4.2s" repeatCount="indefinite"/></circle>
+      <circle cx="520" cy="555" r="1.4" fill="#a78bfa"><animate attributeName="opacity" values=".1;.8;.1" dur="3.8s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <g filter="url(#shadow)">
+      <rect x="42" y="42" width="420" height="526" rx="22" fill="#0f172a" fill-opacity=".72" stroke="#ffffff" stroke-opacity=".08"/>
+      <rect x="484" y="42" width="654" height="526" rx="22" fill="#0f172a" fill-opacity=".72" stroke="#ffffff" stroke-opacity=".08"/>
+    </g>
+
+    <!-- glass reflections -->
+    <path d="M42 42h420v92c-112-38-260-52-420-10z" fill="#fff" opacity=".025"/>
+    <path d="M484 42h654v94c-172-38-430-54-654-8z" fill="#fff" opacity=".022"/>
+
+    <!-- LEFT: cyber identity card -->
+    <g transform="translate(64 62)">
+      <text x="0" y="18" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#64748b" letter-spacing="2">IDENTITY NODE / BREACHION</text>
+      <circle cx="16" cy="46" r="4" fill="#10b981" filter="url(#tinyGlow)"><animate attributeName="opacity" values="1;.35;1" dur="2s" repeatCount="indefinite"/></circle>
+      <text x="29" y="50" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#94a3b8">SECURE CHANNEL ESTABLISHED</text>
+
+      <g transform="translate(40 90)">
+        <animateTransform attributeName="transform" type="translate" values="40 90;40 80;40 90" dur="5.5s" repeatCount="indefinite"/>
+        <circle cx="145" cy="118" r="106" fill="none" stroke="url(#accent)" stroke-width="2" opacity=".7" filter="url(#softGlow)"/>
+        <circle cx="145" cy="118" r="92" fill="#020617" fill-opacity=".55" stroke="#22d3ee" stroke-opacity=".18"/>
+        <path d="M145 52l53 24v40c0 50-31 88-53 99-22-11-53-49-53-99V76z" fill="none" stroke="url(#accent)" stroke-width="3" filter="url(#tinyGlow)"/>
+        <path d="M120 96h50M120 118h50M120 140h34" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+        <text x="145" y="184" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="20" font-weight="700" fill="url(#accent)" letter-spacing="4">ÖŞ</text>
+        <circle cx="145" cy="118" r="112" fill="none" stroke="#22d3ee" stroke-opacity=".18" stroke-dasharray="5 9"><animateTransform attributeName="transform" type="rotate" from="0 145 118" to="360 145 118" dur="20s" repeatCount="indefinite"/></circle>
+      </g>
+
+      <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace">
+        <text x="0" y="362" font-size="28" font-weight="800" fill="#f8fafc">ÖMER ŞAYAK</text>
+        <text x="0" y="388" font-size="13" fill="url(#accent)" letter-spacing="1.6">CYBERSECURITY • DETECTION • PURPLE TEAM</text>
+        <line x1="0" y1="410" x2="370" y2="410" stroke="#fff" stroke-opacity=".08"/>
+        <text x="0" y="440" font-size="12" fill="#64748b">STATUS</text><text x="92" y="440" font-size="12" fill="#cbd5e1">OPERATIONAL</text>
+        <text x="0" y="464" font-size="12" fill="#64748b">LOCATION</text><text x="92" y="464" font-size="12" fill="#cbd5e1">ANKARA, TÜRKİYE</text>
+        <text x="0" y="488" font-size="12" fill="#64748b">FOCUS</text><text x="92" y="488" font-size="12" fill="#cbd5e1">SIEM • IDCA • ADVERSARY SIMULATION</text>
+      </g>
+    </g>
+
+    <!-- RIGHT: terminal -->
+    <g transform="translate(506 62)" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">
+      <circle cx="12" cy="10" r="5" fill="#fb7185"/><circle cx="30" cy="10" r="5" fill="#fbbf24"/><circle cx="48" cy="10" r="5" fill="#34d399"/>
+      <text x="310" y="14" text-anchor="middle" font-size="11" fill="#64748b">omer@breachion — security-console</text>
+      <line x1="0" y1="30" x2="610" y2="30" stroke="#fff" stroke-opacity=".08"/>
+
+      <text x="0" y="68" font-size="14" fill="#22d3ee">omer@breachion:~$</text>
+      <text x="170" y="68" font-size="14" fill="#f8fafc">whoami</text>
+      <text x="0" y="104" font-size="18" font-weight="700" fill="#f8fafc">Hi, I'm Ömer Şayak 👋</text>
+
+      <text x="0" y="140" font-size="14" fill="#94a3b8">ROLE:</text>
+      <g>
+        <text x="58" y="140" font-size="14" fill="url(#accent)">Detection Engineer</text>
+        <set attributeName="visibility" to="hidden" begin="3s" dur="3s" repeatCount="indefinite"/>
+      </g>
+      <g visibility="hidden">
+        <text x="58" y="140" font-size="14" fill="url(#accent)">Purple Team Operator</text>
+        <set attributeName="visibility" to="visible" begin="3s" dur="3s" repeatCount="indefinite"/>
+      </g>
+      <rect x="228" y="126" width="8" height="18" fill="#22d3ee"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+
+      <g opacity="0"><animate attributeName="opacity" values="0;1" begin=".5s" dur=".7s" fill="freeze"/>
+        <text x="0" y="178" font-size="12" fill="#64748b">CURRENT_FOCUS</text><text x="132" y="178" font-size="12" fill="#cbd5e1">QRadar rule validation, Caldera operations, SIEM engineering</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.1s" dur=".7s" fill="freeze"/>
+        <text x="0" y="202" font-size="12" fill="#64748b">MISSION</text><text x="132" y="202" font-size="12" fill="#cbd5e1">Turn adversary behavior into reliable detections</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.7s" dur=".7s" fill="freeze"/>
+        <text x="0" y="226" font-size="12" fill="#64748b">PORTFOLIO</text><text x="132" y="226" font-size="12" fill="#cbd5e1">breachion.com</text>
+      </g>
+
+      <text x="0" y="272" font-size="12" fill="#64748b" letter-spacing="1.6">ACTIVE MODULES</text>
+      <g transform="translate(0 290)" font-size="12">
+        <g><rect width="104" height="30" rx="15" fill="#7c3aed" fill-opacity=".12" stroke="#a78bfa" stroke-opacity=".34"/><text x="52" y="20" text-anchor="middle" fill="#ddd6fe">QRadar</text></g>
+        <g transform="translate(116 0)"><rect width="104" height="30" rx="15" fill="#22d3ee" fill-opacity=".10" stroke="#67e8f9" stroke-opacity=".32"/><text x="52" y="20" text-anchor="middle" fill="#cffafe">Splunk</text></g>
+        <g transform="translate(232 0)"><rect width="116" height="30" rx="15" fill="#10b981" fill-opacity=".10" stroke="#6ee7b7" stroke-opacity=".32"/><text x="58" y="20" text-anchor="middle" fill="#d1fae5">MITRE Caldera</text></g>
+        <g transform="translate(360 0)"><rect width="92" height="30" rx="15" fill="#7c3aed" fill-opacity=".12" stroke="#a78bfa" stroke-opacity=".34"/><text x="46" y="20" text-anchor="middle" fill="#ddd6fe">Sigma</text></g>
+        <g transform="translate(464 0)"><rect width="92" height="30" rx="15" fill="#22d3ee" fill-opacity=".10" stroke="#67e8f9" stroke-opacity=".32"/><text x="46" y="20" text-anchor="middle" fill="#cffafe">Python</text></g>
+
+        <g transform="translate(0 42)"><rect width="104" height="30" rx="15" fill="#10b981" fill-opacity=".10" stroke="#6ee7b7" stroke-opacity=".32"/><text x="52" y="20" text-anchor="middle" fill="#d1fae5">Linux</text></g>
+        <g transform="translate(116 42)"><rect width="104" height="30" rx="15" fill="#7c3aed" fill-opacity=".12" stroke="#a78bfa" stroke-opacity=".34"/><text x="52" y="20" text-anchor="middle" fill="#ddd6fe">FortiGate</text></g>
+        <g transform="translate(232 42)"><rect width="116" height="30" rx="15" fill="#22d3ee" fill-opacity=".10" stroke="#67e8f9" stroke-opacity=".32"/><text x="58" y="20" text-anchor="middle" fill="#cffafe">Detection Eng.</text></g>
+        <g transform="translate(360 42)"><rect width="92" height="30" rx="15" fill="#10b981" fill-opacity=".10" stroke="#6ee7b7" stroke-opacity=".32"/><text x="46" y="20" text-anchor="middle" fill="#d1fae5">Django</text></g>
+        <g transform="translate(464 42)"><rect width="92" height="30" rx="15" fill="#7c3aed" fill-opacity=".12" stroke="#a78bfa" stroke-opacity=".34"/><text x="46" y="20" text-anchor="middle" fill="#ddd6fe">Git</text></g>
+      </g>
+
+      <rect x="0" y="388" width="610" height="92" rx="14" fill="#020617" fill-opacity=".48" stroke="#fff" stroke-opacity=".06"/>
+      <text x="18" y="414" font-size="12" fill="#64748b">LIVE OPERATIONS</text>
+      <text x="18" y="440" font-size="12" fill="#34d399">●</text><text x="36" y="440" font-size="12" fill="#cbd5e1">SIEM engineering</text>
+      <text x="210" y="440" font-size="12" fill="#34d399">●</text><text x="228" y="440" font-size="12" fill="#cbd5e1">Adversary simulation</text>
+      <text x="18" y="464" font-size="12" fill="#22d3ee">●</text><text x="36" y="464" font-size="12" fill="#cbd5e1">Rule validation</text>
+      <text x="210" y="464" font-size="12" fill="#a78bfa">●</text><text x="228" y="464" font-size="12" fill="#cbd5e1">Secure systems development</text>
+    </g>
+
+    <!-- scanline -->
+    <rect x="18" y="18" width="1144" height="2" fill="#22d3ee" opacity=".14"><animate attributeName="y" values="18;590;18" dur="8s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <rect x="18" y="18" width="1144" height="574" rx="28" fill="none" stroke="url(#accent)" stroke-opacity=".5" stroke-width="1.4"/>
+  <rect x="22" y="22" width="1136" height="566" rx="25" fill="none" stroke="#fff" stroke-opacity=".045"/>
+</svg>
